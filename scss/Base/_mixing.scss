@@ -1,0 +1,44 @@
+@mixin dimension{
+    border-radius: 1.5rem;  
+    width: 320px ;
+    height: 320px ;
+ }
+ @mixin estfoot{
+    font-size: 15px;
+    color: $text;
+    font-weight:$font;
+  }
+ 
+   @mixin dimension2{
+    margin-top: 30px;
+    border-radius: 1.5rem;  
+    width: 320px ;
+    height: 320px ;
+ }
+ @mixin contactosuscripcion{
+    color: $fondopalet2ytc;
+    font-size:$size;
+    font-weight:$font;
+  }
+  @mixin grid2{ 
+    border-radius: 1.5rem;  
+    width: 270px ;
+    height: 400px ;
+  }
+  @mixin nosotros{
+    grid-area: Nosotros;
+    margin-top: 20px;
+   }
+   @mixin grid4 { 
+   border-radius: 1.5rem;  
+   width: 360px ;
+   height: 400px ;
+   } 
+
+   @mixin grid5 { 
+   margin-top: 30px;
+   border-radius: 1.5rem;  
+   width: 360px ;
+   height: 400px ;
+   } 
+   
